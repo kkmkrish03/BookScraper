@@ -1,0 +1,54 @@
+
+1)  IP_LOGGER
+    url=https://iplogger.org/account/api/
+    pass=2xL1qqdlfLAULHI
+    key_name=scraper
+    token=api_YrWdkSYvf6RRyRowvow9eo0FQKdES8OR
+    info=https://help.iplogger.org/knowledgebase.php?category=7
+    user_agent=https://api.iplogger.org/useragents/main/
+            parameters=device=string=default:random device
+                       count=Number=default:10
+            result=Array[String]
+
+
+
+2)  SCRAPE_OPS
+    url=https://scrapeops.io/app/onboarding
+    pass=2xL1qqdlfLAULHI
+    key_name=scraper
+    token=f71defac-7a66-44d2-9643-1a206222a1c1
+    info=https://scrapeops.io/app/headers   
+    browser_headers=https://headers.scrapeops.io/v1/browser-headers
+    user_agent=https://headers.scrapeops.io/v1/user-agents
+            parameters=api_key=string=default:random device
+                       num_headers=Number=default:10
+            result=Array[Obj]
+
+            {
+                "result": [
+                    {
+                        "upgrade-insecure-requests": "1",
+                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Windows; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",
+                        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                        "sec-ch-ua": "".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": ""Windows"",
+                        "sec-fetch-site": "none",
+                        "sec-fetch-mod": "",
+                        "sec-fetch-user": "?1",
+                        "accept-encoding": "gzip, deflate, br",
+                        "accept-language": "bg-BG,bg;q=0.9,en-US;q=0.8,en;q=0.7"
+                    }
+                ]
+            }
+
+
+
+3) Free Proxy List 
+    url: https://free-proxy-list.net/
+
+4) Geonode free proxy list
+    https://geonode.com/free-proxy-list4
+
+5) Premium proxy list  (checked)
+    https://smartproxy.com/proxies/residential-proxies/pricing
